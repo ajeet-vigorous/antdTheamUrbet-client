@@ -1,0 +1,721 @@
+
+/* line 16, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-container {
+  /*background-color:#092E20;  url(image_path('lottery/inside_outside/chip_5.png'))*/
+  background-image: url("./AndarBahar/ab-bg-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  width: 100%;
+  height: 100vh;
+  display: table;
+}
+
+/* line 26, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 30, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-inner {
+  position: relative;
+  border-radius: 8px;
+  box-shadow: black 0px 0px 2px;
+  width: 695px;
+  background: #FFF;
+  margin: 0 auto;
+  border: solid 1px black;
+  font-family: arial, sans-serif;
+  padding: 20px;
+  background-image: url("./AndarBahar/table-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+}
+
+/* line 46, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+#buttons {
+  text-align: center;
+}
+
+/* line 50, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+
+/* line 56, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+img.preload {
+  display: none;
+}
+
+/* line 60, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.back-button {
+  color: #7ccc00 !important;
+  text-decoration: none !important;
+}
+
+/* line 67, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-title {
+  font-size: 60px;
+  text-align: center;
+  padding: 0px;
+  margin: 0 auto 10px;
+  font-family: 'Berkshire Swash', cursive;
+  color: #092e20;
+}
+
+/* line 75, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+h1 img {
+  height: 75px;
+  width: auto;
+}
+
+/* line 79, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+#card-table {
+  background-image: url("./AndarBahar/table-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  max-width: 600px;
+  width: 600px;
+  border: solid 6px rgba(11, 43, 0, 0.3);
+  border-radius: 8px;
+  box-shadow: #000 0px 0px 10px;
+  float: left;
+}
+
+/* line 92, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+a:visited {
+  color: blue;
+}
+
+/* line 94, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+#deal {
+  position: absolute;
+  left: 310px;
+  top: 170px;
+}
+
+/* line 99, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.card {
+  box-shadow: -2px 4px 8px -4px #272727;
+  border-radius: 9px;
+}
+
+/* line 105, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-detail {
+  margin-top: 20px;
+  display: flex;
+}
+
+/* line 109, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-detail .r-detail {
+  flex: 1;
+  text-align: right;
+}
+
+/* line 113, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-detail .l-detail {
+  text-align: left;
+}
+
+/* line 120, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.eqWrap {
+  display: flex;
+  margin-top: 10px;
+}
+
+/* line 124, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.equalH {
+  flex: 1;
+  margin: 1px;
+}
+
+/* line 128, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.apply-flex {
+  flex: 1;
+}
+
+/* line 132, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-d {
+  display: inline-block;
+  border: 2px solid #a52a2a;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #7ccc00;
+  background-color: transparent;
+  border: solid 3px rgba(42, 162, 0, 0.3);
+  border-radius: 8px;
+  box-shadow: #000 0px 0px 10px;
+}
+
+/* line 145, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-clear {
+  background-color: rgba(247, 0, 0, 0.16);
+  border: solid 3px rgba(162, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* line 151, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.flash-outer {
+  position: absolute;
+  left: 20px;
+  height: 100%;
+  z-index: 150;
+  display: none;
+}
+
+/* line 158, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.show-flash {
+  display: table !important;
+}
+
+/* line 161, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.flash-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 165, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-flash {
+  width: 200px;
+  left: 10px;
+  text-align: center;
+  margin: auto;
+  background-color: #76cc6d;
+  padding: 50px 0;
+  border-radius: 9px;
+  border: 3px solid #0a4008;
+  /*background-image: url(image_path('lottery/inside_outside/happy.png'));
+  background-repeat: no-repeat;
+  background-size: 40px auto;
+  background-position: top 10px center;*/
+}
+
+/* line 181, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-flash .win {
+  font-family: 'Berkshire Swash', cursive;
+  color: #092e20;
+  font-size: 30px;
+  padding: 0 0 3px 0;
+  border-bottom: 2px solid #ececec;
+  display: inline-block;
+}
+
+/* line 189, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-flash .amt {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* line 194, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  /* line 199, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  /* line 203, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  /* line 209, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  /* line 213, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/*#card-table{
+  float: left;
+  width: 600px;
+}*/
+/* line 226, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-chip-outer {
+  width: auto;
+  height: 412px;
+  float: left;
+  margin-left: 20px;
+}
+
+/* line 232, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.clear {
+  clear: both;
+}
+
+/* line 235, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-chip-ul {
+  display: table;
+  height: 100%;
+}
+
+/* line 239, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-chip-outer li {
+  list-style-type: none;
+  flex: 1;
+  justify-content: center;
+  display: table-row;
+}
+
+/* line 245, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-chip-outer .li-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 249, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-chip-outer .chip-box {
+  width: 45px;
+  height: 45px;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px 1px #1f1f1f;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: table;
+  cursor: pointer;
+}
+
+/* line 261, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.chip-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-family: 'Saira', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* line 269, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.chip-cell p {
+  background-color: #fff;
+}
+
+/* line 272, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.c-red {
+  background-image: url("./AndarBahar/2h.png");
+}
+
+/* line 273, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.c-blue {
+  background-image: url("./AndarBahar/5h.png");
+}
+
+/* line 274, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.c-pink {
+  background-image: url("./AndarBahar/10h.png");
+}
+
+/* line 275, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.c-purple {
+  background-image: url("./AndarBahar/chip_100.png");
+}
+
+/* line 276, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.c-sky {
+  background-image: url("./AndarBahar/chip_500.png");
+}
+
+/* line 277, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.c-marun {
+  background-image: url("./AndarBahar/chip_1h.png");
+}
+
+/* line 279, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-chip-outer .chip-box.active-chip {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: active-chip 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: active-chip 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes active-chip {
+  /* line 288, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+
+  /* line 292, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes active-chip {
+  /* line 298, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+
+  /* line 302, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+/*
+.active-chip:after{
+  content: "\25b2";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}*/
+/* line 315, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.andar-outer {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: table;
+}
+
+/* line 321, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.ab-bet-holder {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 326, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.place_bet {
+  cursor: pointer;
+}
+
+/* line 330, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.bet-amt {
+  color: #ebf102;
+  font-weight: 600;
+  background-color: transparent;
+  border: solid 3px rgba(42, 162, 0, 0.3);
+  border-radius: 8px 0 0 8px;
+  box-shadow: #000 0px 0px 10px;
+  padding: 0 18px 0 8px;
+  border-right: none;
+  position: relative;
+  right: -10px;
+  bottom: 2px;
+  z-index: 200;
+  min-width: 40px;
+}
+
+/* line 345, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.bahar-outer {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: table;
+}
+
+/* line 352, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.bahar-outer img,
+.andar-outer img {
+  width: 80px;
+  position: relative;
+  z-index: 250;
+}
+
+@media all and (max-width: 768px) {
+  /* line 362, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-container {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    height: auto;
+  }
+
+  /* line 368, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-cell {
+    display: inherit;
+    vertical-align: inherit;
+  }
+
+  /* line 372, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  h1 img {
+    height: 55px;
+  }
+
+  /* line 375, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-title {
+    font-size: inherit;
+  }
+
+  /* line 378, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-inner {
+    width: calc(100% - 42px);
+    min-height: calc(100vh - 10px);
+    /*box-shadow: none;*/
+    /*border: none;*/
+    padding: 10px;
+  }
+
+  /* line 385, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-bet-outer {
+    /*display: none;*/
+  }
+
+  /* line 388, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .bahar-outer img, .andar-outer img {
+    width: 50px;
+  }
+
+  /* line 391, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .bet-amt {
+    font-size: 12px;
+    border: solid 2px rgba(42, 162, 0, 0.3);
+    font-weight: 500;
+    min-width: 30px;
+    right: -7px;
+  }
+
+  /* line 398, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  #card-table {
+    background-image: none;
+    background-repeat: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    border: inherit;
+    box-shadow: inherit;
+    float: inherit;
+  }
+
+  /* line 410, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  #deal {
+    left: 210px;
+  }
+
+  /* line 413, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-chip-outer {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  /* line 420, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-chip-ul {
+    display: flex;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  /* line 425, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-chip-outer .li-cell {
+    display: inherit;
+    vertical-align: inherit;
+  }
+
+  /* line 429, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-chip-outer .chip-box {
+    margin-top: 7px;
+    width: 35px;
+    height: 35px;
+  }
+
+  /* line 434, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-chip-outer .chip-box.active-chip {
+    margin-top: 0;
+    width: 50px;
+    height: 50px;
+  }
+
+  /* line 439, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-detail {
+    margin-top: 10px;
+    display: block;
+  }
+
+  /* line 443, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .flex-1 {
+    display: flex;
+  }
+
+  /* line 447, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  #last-5 {
+    display: block;
+  }
+
+  /* line 451, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  #last-10 {
+    display: none;
+  }
+
+  /* line 455, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-d {
+    flex: 1;
+    font-size: 12px;
+    border: solid 2px rgba(42, 162, 0, 0.3);
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  /* line 463, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-counter,
+  .ab-total {
+    margin-right: 10px;
+    text-align: left;
+  }
+
+  /* line 467, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-bal {
+    text-align: left;
+  }
+
+  /* line 470, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-clear {
+    text-align: center;
+  }
+}
+@media all and (max-width: 420px) {
+  /* line 476, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-container {
+    padding: 0;
+  }
+
+  /* line 479, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .ab-inner {
+    border-radius: 0;
+    width: calc(100% - 12px);
+    padding: 5px;
+  }
+}
+/* line 486, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.request-disabled, .disabled {
+  pointer-events: none !important;
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+
+/* line 493, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.flash-box {
+  position: fixed;
+  top: 20px;
+  width: 100%;
+  z-index: 10000;
+  display: table;
+}
+
+/* line 500, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.flash-box .flash-msg {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+/* line 506, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.flash-box .flash-msg .msg,
+.flash-box .flash-msg .alert-close {
+  background-color: #fff;
+  color: #ce0000;
+  display: inline-block;
+  margin: auto;
+  padding: 0;
+  height: 40px;
+  line-height: 40px;
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
+  float: left;
+}
+
+/* line 518, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.flash-box .flash-msg .msg {
+  width: calc(100% - 41px);
+  border-right: 1px solid #dedede;
+  border-radius: 3px 0 0 3px;
+}
+
+/* line 523, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.flash-box .flash-msg .alert-close {
+  width: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0 3px 3px 0;
+}
+
+/* line 529, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.flash-box.hide {
+  display: none;
+}
+
+/* line 532, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.hide {
+  display: none;
+}
+
+/* line 536, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.img-back {
+  position: unset;
+  width: 25px;
+  height: 25px;
+}
+
+/* line 542, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.back-pull-left {
+  float: left;
+}
+
+/* line 546, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.audio-pull-right {
+  float: right;
+  margin-left: 10px;
+}
+/* line 549, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.audio-pull-right img {
+  width: 25px;
+  height: 25px;
+}
+
+/* line 555, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+.open-history {
+  flex: inherit;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media all and (max-width: 600px) {
+  /* line 564, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .modal-content-sec {
+    top: 96px !important;
+  }
+}
+@media all and (max-width: 1024px) and (orientation: landscape) {
+  /* line 570, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .history-modal-content {
+    height: 300px !important;
+  }
+
+  /* line 573, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .modal-content-sec {
+    height: 225px !important;
+    font-size: 15px;
+  }
+
+  /* line 577, /home/define/Documents/heroic-deploy/heroic/app/assets/stylesheets/lottery/inside_outside/style.scss */
+  .modalHistory {
+    padding-top: 5vh !important;
+  }
+}

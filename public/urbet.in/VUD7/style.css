@@ -1,0 +1,347 @@
+
+
+* {padding: 0;margin: 0;}
+
+
+body {zoom: 100%;background: url(https://admin.bets247.in/assets/images/lords/main-bg.jpg);}
+
+
+#hand {
+    width: 50%;
+    position: absolute;
+    height: 250px; /* 5px * 50 = 250px */
+    display: block;
+    left: 25%;
+    bottom: -40px;
+  }
+  
+  .card {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 170px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2); /* Fixed box-shadow syntax */
+    border-radius: 5px;
+    z-index: 1;
+    transition: 0.5s left ease, 0.5s bottom ease;
+    user-select: none;
+  }
+  
+  .card:hover {
+    /* Add hover styles if needed */
+  }
+  
+  .card > span {
+    display: block;
+  }
+  
+  .value {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 5px;
+  }
+  
+  .suit {
+    /* Add styles for the suit if needed */
+  }
+  
+.videoframe{background-image: url(./blue-background.jpg);background-repeat: no-repeat;background-size: cover;background-position: 50%;background-position-x: 50%;width: 100vw;height: 415px;}
+
+@media (max-width:1025px) {
+	.videoframe {height: 300px;}
+	.card {bottom:120px !important;}
+}
+@media (min-width:1025px) {#hand {left: 40%;}} 
+
+.card-img {
+    width: auto;
+    height: 45px;
+}
+.roundId {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    position: absolute;
+    display: inline-grid;
+    left: 10px;
+    top: 10px;
+}
+.CountDown {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    position: absolute;
+    display: inline-grid;
+    right: 10px;
+    top: 10px;
+}
+.winnerMessge {
+    color: #fff;
+    font-size: 18px;
+    text-align: initial;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.winnerText {
+    background: #cbc0c02e;
+    width: 360px;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+}
+.new-matka-cells {
+    border-radius: 5px;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    position: relative;
+    justify-content: center;
+}
+.new-matka-last-winner-cells {
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 5px;
+    position: relative;
+    justify-content: center;
+}
+.last-result {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: right;
+}
+.last-number-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background: #2a2a2a;
+    border-radius: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 2.5px;
+}
+.last-number-btn.L {
+    background: #a5813f  !important;
+}
+.last-number-btn.H {
+    background: #3ec160 !important;
+}
+.last-number-btn-txt {
+    font-family: Gemunu Libre;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+.number-btn {
+    -webkit-box-shadow: 0px 5px 0px #c4c4c4;
+    -moz-box-shadow: 0px 5px 0px #c4c4c4;
+    -ms-box-shadow: 0px 5px 0px #c4c4c4;
+    -o-box-shadow: 0px 5px 0px #c4c4c4;
+    box-shadow: 0px 5px 0px #c4c4c4;
+    background: #000000;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 55px;
+    /*width: 60px;*/
+}
+.number-btn-txt {
+    user-select: none;
+    font-family: Gemunu Libre;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #fff;
+}
+.coin-holder img {
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.coin {
+    width: 55px;
+    height: 55px;
+}
+.flash-box {
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    z-index: 10000;
+    display: table;
+}
+.flash-box .flash-msg {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.flash-box .flash-msg .msg,
+.flash-box .flash-msg .alert-close {
+    background-color: #fff;
+    color: #ce0000;
+    display: inline-block;
+    margin: auto;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    font-family: "Righteous", cursive;
+    font-size: 18px;
+    float: left;
+}
+.flash-box .flash-msg .msg {
+    width: calc(100% - 41px);
+    border-right: 1px solid #dedede;
+    border-radius: 3px 0 0 3px;
+}
+.flash-box .flash-msg .alert-close {
+    width: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+}
+.flash-box.hide {
+    display: none;
+}
+@media all and (max-width: 600px) {
+    .flash-box {
+        top: 0;
+    }
+    .flash-box .flash-msg {
+        width: 100%;
+    }
+    .flash-box .flash-msg .msg {
+        font-size: 14px;
+        border-radius: 0;
+    }
+    .flash-box .flash-msg .alert-close {
+        font-size: 12px;
+        border-radius: 0;
+    }
+}
+.coin-placed {
+    user-select: none;
+    color: red;
+}
+.header-user-list-title {
+    background: #2a2a2a;
+    color: #fff;
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    margin: 0;
+    cursor: pointer;
+    -webkit-transition: background-color ease 0.2s;
+    -moz-transition: background-color ease 0.2s;
+    -o-transition: background-color ease 0.2s;
+    transition: background-color ease 0.2s;
+}
+.user-dp img {
+    width: 70px;
+}
+
+.logout {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 10px;
+}
+.suspended:after {
+    position: absolute;
+    top: 0;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    background: #110e1482;
+    z-index: 9999;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    position: absolute;
+    font-size: 16px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content:  url("/assets/images/lock.png") ;
+}
+
+ 
+.active-chip{
+	border: 1px solid;
+    border-radius: 40px;
+    padding: 2px;
+    text-align: center;
+    background: #7b3118;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.number-btn:active {
+  position: relative;
+  background:#efe892;
+  top: 5px;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-transition: All 250ms ease;
+  -moz-transition: All 250ms ease;
+  -o-transition: All 250ms ease;
+  -ms-transition: All 250ms ease;
+  transition: All 250ms ease;
+}
+
+.game-info-details{
+	display: flex;
+    justify-content: space-between;
+    background: #273349;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.new-cellblock {
+    /*background: #273349;*/
+    border-radius: 5px;
+    padding-bottom: 16px;
+}

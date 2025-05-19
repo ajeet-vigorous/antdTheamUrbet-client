@@ -517,8 +517,8 @@ const Dashboard = () => {
                   >
 
                     <div style={{ width: "100px" }} className="gx-bg-flex gx-flex-column gx-justify-content-center gx-align-items-center">
-                      {/* <img alt="inage" src="/assets/images/int-casino/ludo.png" className="gx-p-3 gx-bg-grey gx-rounded-circle" /> */}
-                      <div className="gx-p-5 gx-bg-grey gx-fs-icon-lg gx-rounded-circle gx-text-white">O</div>
+                      <img alt="inage" src="/assets/images/other.png" className="gx-p-3 gx-bg-grey gx-rounded-circle" />
+               
                       <div className="gx-font-weight-bold gx-text-black gx-text-center gx-text-uppercase gx-py-2">Other</div>
                     </div>
 

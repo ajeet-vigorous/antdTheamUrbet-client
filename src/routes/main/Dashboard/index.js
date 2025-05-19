@@ -457,8 +457,8 @@ const Dashboard = () => {
                       })
                     }
                   >
-                    <div style={{ width: "100px" }} className="gx-bg-flex  gx-flex-column gx-justify-content-center gx-align-items-center">
-                      <img alt="inage" src="/assets/images/aviator1.png" className="gx-p-3 gx-bg-grey gx-rounded-circle" />
+                    <div   className="gx-bg-flex  gx-flex-column gx-justify-content-center gx-align-items-center">
+                      <img alt="inage"  style={{ width: "80px", height: "80px" }} src="/assets/images/aviator1.png" className="gx-p-3 gx-bg-grey gx-rounded-circle" />
                       <div className="gx-font-weight-bold gx-text-black gx-text-center gx-text-uppercase gx-py-2">Aviator</div>
                     </div>
 
@@ -470,8 +470,8 @@ const Dashboard = () => {
                     onClick={() => handleCasinoOpen({ image: "/assets/images/int-casino/ludo.png", name: "Ludo", gameId: "600113", nameHindi: "लूडो" })}
                   >
 
-                    <div style={{ width: "100px" }} className="gx-bg-flex gx-flex-column gx-justify-content-center gx-align-items-center">
-                      <img alt="inage" src="/assets/images/int-casino/ludo.png" className="gx-p-3 gx-bg-grey gx-rounded-circle" />
+                    <div    className="gx-bg-flex gx-flex-column gx-justify-content-center gx-align-items-center">
+                      <img style={{ width: "80px", height: "80px" }} alt="inage" src="/assets/images/int-casino/ludo.png" className="gx-p-3 gx-bg-grey gx-rounded-circle" />
                       <div className="gx-font-weight-bold gx-text-black gx-text-center gx-text-uppercase gx-py-2">LUDO</div>
                     </div>
 
@@ -484,8 +484,8 @@ const Dashboard = () => {
                      onClick={() => history.push("matka")}
                   >
 
-                    <div style={{ width: "100px" }} className="gx-bg-flex gx-flex-column gx-justify-content-center gx-align-items-center">
-                      <img alt="inage" src="/assets/Dashboard/matka.png" className="gx-p-3 gx-bg-grey gx-rounded-circle" />
+                    <div    className="gx-bg-flex gx-flex-column gx-justify-content-center gx-align-items-center">
+                      <img style={{ width: "80px", height: "80px" }} alt="inage" src="/assets/Dashboard/matka.png" className="gx-p-3 gx-bg-grey gx-rounded-circle" />
                       <div className="gx-font-weight-bold gx-text-black gx-text-center gx-text-uppercase gx-py-2">Matka</div>
                     </div>
 
@@ -516,8 +516,8 @@ const Dashboard = () => {
                   // onClick={() => handleCasinoOpen({ image: "/assets/images/int-casino/ludo.png", name: "Ludo", gameId: "600113", nameHindi: "लूडो" })}
                   >
 
-                    <div style={{ width: "100px" }} className="gx-bg-flex gx-flex-column gx-justify-content-center gx-align-items-center">
-                      <img alt="inage" src="/assets/images/other.png" className="gx-p-3 gx-bg-grey gx-rounded-circle" />
+                    <div    className="gx-bg-flex gx-flex-column gx-justify-content-center gx-align-items-center">
+                      <img style={{ width: "80px", height: "80px" }} alt="inage" src="/assets/images/other.png" className="gx-p-3 gx-bg-grey gx-rounded-circle" />
                
                       <div className="gx-font-weight-bold gx-text-black gx-text-center gx-text-uppercase gx-py-2">Other</div>
                     </div>
